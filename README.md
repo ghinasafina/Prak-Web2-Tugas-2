@@ -1,4 +1,5 @@
 # Prak-Web2-Tugas-2
+## PHP OOP CASE STUDY
 #### Task:
 1. Create an OOP-based View, by retrieving data from the MySQL database
 2. Use the _construct as a link to the database
@@ -12,7 +13,54 @@
 #### ERD
 
 ![WhatsApp Image 2024-08-30 at 09 27 15](https://github.com/user-attachments/assets/a862a3c4-bba4-4614-a419-052dc9a0e5bc)
+## Daftar Isi
 
+- [Koneksi.php](#koneksi-php)
+   - [Class Database](#class-database)
+      - [1. Deklarasi Properti](#deklrasi-properti)
+      - [2. Konstruktor](#konstruktor)
+      - [3. Destruktor](#destruktor)
+   - [Class Withdrawals](#class-withdrawals)
+      - [1. Pewarisan](#pewarisan)
+      - [2. Konstruktor](#konstruktor-withdrawals)
+      - [3. Method tampilData](#method-tampil-data)
+      - [Source Code](#source-code-withdrawals)
+- [Navbar.php](#navbar-php)
+    - [1. Struktur Dasar HTML](#struktur-dasar-html)
+    - [2. Bagian `<head>`](#bagian-head)
+    - [3. Bagian `<body>`](#bagian-body)
+    - [4. Menghubungkan JavaScript](#menghubungkan-javascript)
+    - [Source Code](#source-code-navbar)
+- [Home.php](#home-php)
+    - [1. Bagian PHP](#bagian-php-home)
+    - [2. Struktur HTML](#struktur-html)
+    - [3. Bagian `<head>`](#bagian-head-home)
+    - [4. Bagian `<body>`](#bagian-body-home)
+    - [Source Code](#source-code-home)
+- [Reports.php](#reports-php)
+    - [1. Bagian PHP](#bagian-php-reports)
+    - [2. Bagian HTML](#bagian-html-reports)
+    - [Source Code](#source-code-reports)
+- [Withdrawals.php](#withdrawals-php)
+    - [1. Bagian PHP](#bagian-php-withdrawals)
+    - [2. Bagian HTML](#bagian-html-withdrawals)
+    - [Source Code](#source-code-withdrawals)
+- [AcademicAdvisor.php](#academic-advisor-php)
+    - [1. Bagian PHP](#bagian-php-academic-advisor)
+    - [2. Bagian HTML](#bagian-html-academic-advisor)
+    - [Source Code](#source-code-academic-advisor)
+- [HeadOfProgram.php](#head-of-program-php)
+    - [1. Bagian PHP](#bagian-php-head-of-program)
+    - [2. Bagian HTML](#bagian-html-head-of-program)
+    - [Source Code](#source-code-head-of-program)
+- [Output Program](#output-program)
+    - [1. Home](#output-home)
+    - [2. Tampil Reports](#output-tampil-reports)
+    - [3. Tampil Withdrawals](#output-tampil-withdrawals)
+    - [4. Tampil Academic Advisor](#output-tampil-academic-advisor)
+    - [5. Tampil Head Of Program](#output-tampil-head-of-program)
+
+   
  ## Koneksi.php
 
 #### Class Database
@@ -754,7 +802,7 @@ $a = $data->tampilData();
 ```
 
 ## AcademicAdvisor.php
-1. Kode PHP
+1. Bagian PHP
 
 ```
 <?php
@@ -790,7 +838,7 @@ $a = $data->tampilData(); // Mendapatkan data dari tabel
     - '$data = new DosenWali();': Membuat objek DosenWali.
     - '$a = $data->tampilData();': Mengambil data dari method tampilData.
 
-2. Kode HTML
+2. Bagian HTML
 
 ```
 <!DOCTYPE html>
@@ -911,7 +959,7 @@ $a = $data->tampilData(); // Memanggil method tampilData() untuk mendapatkan dat
 
 ## HeadOfAdvisor.php
 
-1. Kode PHP
+1. Bagian PHP
 
 ```
 <?php 
@@ -946,7 +994,7 @@ $a = $data->tampilData(); // Mengambil data menggunakan method tampilData
 - '$data = new KoorProdi();': Membuat instance dari KoorProdi.
 - '$a = $data->tampilData();': Mengambil data dari database.
 
-2. Kode HTML
+2. Bagian HTML
 
 ```
 <!DOCTYPE html>
