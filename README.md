@@ -1070,23 +1070,29 @@ $a = $data->tampilData(); // Mengambil data menggunakan method tampilData
 
 1. Home
 
-![Screenshot (164)](https://github.com/user-attachments/assets/bbe82f6f-90b1-4412-9437-83d5ef31ce52)
-
+   ![Screenshot (164)](https://github.com/user-attachments/assets/bbe82f6f-90b1-4412-9437-83d5ef31ce52)
+ <pre></pre>
+ 
 2. Tampil Report
 
-![Screenshot (165)](https://github.com/user-attachments/assets/8024908e-26ea-4b41-b3df-f9608b8de2dd)
-
+   ![Screenshot (165)](https://github.com/user-attachments/assets/8024908e-26ea-4b41-b3df-f9608b8de2dd)
+ <pre></pre>
+ 
 3. Tampil Withdrawals
 
-![Screenshot (166)](https://github.com/user-attachments/assets/92049824-399e-4e70-a5b2-4cad02ff5e9c)
-
+   ![Screenshot (166)](https://github.com/user-attachments/assets/92049824-399e-4e70-a5b2-4cad02ff5e9c)
+ <pre></pre>
+ 
 4. Tampil Academic Advisor
 
-![Screenshot (167)](https://github.com/user-attachments/assets/34455db3-0ecf-4dc6-a37e-70425745d144)
-
+   ![Screenshot (167)](https://github.com/user-attachments/assets/34455db3-0ecf-4dc6-a37e-70425745d144)
+ <pre></pre>
+ 
 5. Tampil Head Of Program
 
-![Screenshot (168)](https://github.com/user-attachments/assets/fa3a3626-b3d2-468f-b478-3d1b16f9e4ae)
+   ![Screenshot (168)](https://github.com/user-attachments/assets/fa3a3626-b3d2-468f-b478-3d1b16f9e4ae)
+   <pre></pre>
+   <pre></pre>
 
 ****End****
 
